@@ -1,6 +1,5 @@
 #! /usr/bin/python3
 
-from instapy_cli import client
 import wget
 import os
 import time

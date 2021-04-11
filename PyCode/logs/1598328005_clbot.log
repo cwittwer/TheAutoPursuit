@@ -1,8 +1,0 @@
-root - INFO - Datetime limit: 08/24/2020, 20:00:04
-root - INFO - Setting up the instagram and twitter accounts
-root - INFO - Found image url:https://images.craigslist.org/00Z0Z_aOIg9sHaoSk_0CI0t2_600x450.jpg
-root - INFO - Found image url:https://images.craigslist.org/00G0G_aUpmFFMHstN_0x20oM_600x450.jpg
-python-craiglist - WARNING - 'clean' is not a valid option for auto_title_status
-python-craiglist - WARNING - 'salvage' is not a valid option for auto_title_status
-python-craiglist - WARNING - 'rebuilt' is not a valid option for auto_title_status
-python-craiglist - WARNING - 'lien' is not a valid option for auto_title_status
