@@ -1,4 +1,7 @@
 Pycode/logs/
+Pycode/BarelyDriven/logs/
+Pycode/Find_An_MCar/logs/
+Pycode/logs/
 env/
 .vscode/
 PyCode/*tokens.py 
