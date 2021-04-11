@@ -1,0 +1,55 @@
+2021-03-10 22:42:52,910 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2021-03-10 22:42:52,911 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from /usr/local/lib/python3.7/dist-packages/instabot/bot/bot.py
+2021-03-10 22:42:52,912 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2021-03-10 22:42:52,913 - instabot version: 0.117.0 (api_login) - INFO - Recovery from /home/pi/Desktop/CarBot/PyCode/config/miata.hunter_uuid_and_cookie.json: COOKIE False - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=38bb09df-c42b-4cbe-aaf1-1a15fe859177
+- uuid=c2d54596-38d1-470c-bddf-d77494ebbbfd
+- client_session_id=7514ee5b-4533-46ca-874d-f99cdc328dbd
+- device_id=android-1cb5031454b1a06f
+2021-03-10 22:42:52,913 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2021-03-10 22:42:53,215 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2021-03-10 22:42:53,490 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2021-03-10 22:42:53,747 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2021-03-10 22:42:54,031 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2021-03-10 22:42:55,995 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [200]>
+2021-03-10 22:42:55,996 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'miata.hunter'!
+2021-03-10 22:42:55,996 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: True
+2021-03-10 22:42:56,271 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2021-03-10 22:42:56,563 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2021-03-10 22:42:56,804 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: zr/token/result/?device_id=android-1cb5031454b1a06f&token_hash=&custom_device_id=android-1cb5031454b1a06f&fetch_reason=token_expired returned response: <Response [200]>
+2021-03-10 22:42:57,052 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: multiple_accounts/get_account_family/ returned response: <Response [200]>
+2021-03-10 22:42:57,334 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2021-03-10 22:42:58,096 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: igtv/browse_feed/?prefetch=1 returned response: <Response [200]>
+2021-03-10 22:42:58,349 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: creatives/ar_class/ returned response: <Response [200]>
+2021-03-10 22:42:58,711 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2021-03-10 22:43:00,156 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2021-03-10 22:43:00,501 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/blocked/ returned response: <Response [200]>
+2021-03-10 22:43:01,121 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: news/inbox/ returned response: <Response [200]>
+2021-03-10 22:43:02,021 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: loom/fetch_config/ returned response: <Response [200]>
+2021-03-10 22:43:02,339 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: scores/bootstrap/users/?surfaces=["autocomplete_user_list","coefficient_besties_list_ranking","coefficient_rank_recipient_user_suggestion","coefficient_ios_section_test_bootstrap_ranking","coefficient_direct_recipients_ranking_variant_2"] returned response: <Response [200]>
+2021-03-10 22:43:02,619 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: business/eligibility/get_monetization_products_eligibility_data/?product_types=branded_content returned response: <Response [200]>
+2021-03-10 22:43:02,879 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: business/branded_content/should_require_professional_account/ returned response: <Response [200]>
+2021-03-10 22:43:03,166 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: linked_accounts/get_linkage_status/ returned response: <Response [200]>
+2021-03-10 22:43:03,415 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: locations/request_country/ returned response: <Response [200]>
+2021-03-10 22:43:03,684 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: qp/get_cooldowns/?signed_body=signed_body=4b9c516a5410a3bc128e09c6104a7f042146b9c2023870560c63a43a7f66781c.4&ig_sig_key_version=4&ig_sig_key_version=4 returned response: <Response [200]>
+2021-03-10 22:43:03,924 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/arlink_download_info/?version_override=2.2.1 returned response: <Response [200]>
+2021-03-10 22:43:04,326 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/41049736996/info/ returned response: <Response [200]>
+2021-03-10 22:43:04,807 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/get_presence/ returned response: <Response [200]>
+2021-03-10 22:43:05,228 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/inbox/?visual_message_return_type=unseen&thread_message_limit=10&persistentBadging=true&limit=20 returned response: <Response [200]>
+2021-03-10 22:43:05,609 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/inbox/?visual_message_return_type=unseen&persistentBadging=true&limit=0 returned response: <Response [200]>
+2021-03-10 22:43:06,026 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: discover/topical_explore/?is_prefetch=true&omit_cover_media=true&use_sectional_payload=true&timezone_offset=0&session_id=7514ee5b-4533-46ca-874d-f99cdc328dbd&include_fixed_destinations=true returned response: <Response [200]>
+2021-03-10 22:43:06,314 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: notifications/badge/ returned response: <Response [200]>
+2021-03-10 22:43:06,782 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qp/batch_fetch/ returned response: <Response [200]>
+2021-03-10 22:43:06,784 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: /home/pi/Desktop/CarBot/PyCode/config/miata.hunter.checkpoint
+2021-03-10 22:45:12,618 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2021-03-10 22:45:12,896 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2021-03-10 22:45:12,897 - instabot version: 0.117.0 (bot_photo) - INFO - Photo '/home/pi/Desktop/CarBot/00D0D_d1xBQSaF2rWz_0jm0ew_600x450.jpg' is uploaded.
+2021-03-10 22:52:48,994 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2021-03-10 22:52:49,273 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2021-03-10 22:52:49,274 - instabot version: 0.117.0 (bot_photo) - INFO - Photo '/home/pi/Desktop/CarBot/01616_hWystLuPeyMz_0gg099_600x450.jpg' is uploaded.
+2021-03-10 22:56:12,938 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2021-03-10 22:56:13,473 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2021-03-10 22:56:13,474 - instabot version: 0.117.0 (bot_photo) - INFO - Photo '/home/pi/Desktop/CarBot/00g0g_5rqAarnZhKnz_0CI0t2_600x450.jpg' is uploaded.
+2021-03-10 22:58:26,578 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /home/pi/Desktop/CarBot/PyCode/config/miata.hunter.checkpoint
+2021-03-10 22:58:26,579 - instabot version: 0.117.0 (bot) - INFO - Total requests: 77

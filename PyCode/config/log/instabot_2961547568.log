@@ -1,0 +1,14 @@
+2021-02-19 23:34:25,971 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2021-02-19 23:34:25,971 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from /usr/local/lib/python3.7/dist-packages/instabot/bot/bot.py
+2021-02-19 23:34:25,973 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2021-02-19 23:34:25,973 - instabot version: 0.117.0 (api_login) - INFO - Recovery from /home/pi/Desktop/CarBot/PyCode/config/miata.hunter_uuid_and_cookie.json: COOKIE False - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=38bb09df-c42b-4cbe-aaf1-1a15fe859177
+- uuid=c2d54596-38d1-470c-bddf-d77494ebbbfd
+- client_session_id=7514ee5b-4533-46ca-874d-f99cdc328dbd
+- device_id=android-1cb5031454b1a06f
+2021-02-19 23:34:25,973 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2021-02-19 23:34:26,286 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2021-02-19 23:34:26,600 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2021-02-19 23:34:26,911 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2021-02-19 23:34:27,169 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>

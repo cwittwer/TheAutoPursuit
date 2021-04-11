@@ -1,0 +1,23 @@
+root - INFO - Datetime limit: 10/28/2020, 04:00:03
+root - INFO - Setting up the instagram and twitter accounts
+instabot version: 0.117.0 - INFO - Instabot version: 0.117.0 Started
+instabot version: 0.117.0 - DEBUG - Bot imported from /usr/local/lib/python3.7/dist-packages/instabot/bot/bot.py
+instabot version: 0.117.0 - DEBUG - Loading uuids
+instabot version: 0.117.0 - INFO - Recovery from /home/pi/config/miata.hunter_uuid_and_cookie.json: COOKIE False - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=e6b73eab-7c30-40c9-92e2-8ff8aa70932d
+- uuid=00e37b1d-def7-419c-b22e-49df9efbab89
+- client_session_id=07f1696c-3d73-4a6f-af64-fd1cee645c2e
+- device_id=android-1cb5031454b1a06f
+instabot version: 0.117.0 - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+instabot version: 0.117.0 - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+instabot version: 0.117.0 - DEBUG - Responsecode indicates error; response content: b'{"message": "Sorry, there was a problem with your request.", "status": "fail", "error_type": "sentry_block"}'
+instabot version: 0.117.0 - ERROR - Request returns 400 error!
+instabot version: 0.117.0 - INFO - Instagram's error message: Sorry, there was a problem with your request.
+instabot version: 0.117.0 - INFO - Error type: sentry_block
+instabot version: 0.117.0 - ERROR - Failed to login go to instagram and change your password
+instabot version: 0.117.0 - INFO - Username or password is incorrect.

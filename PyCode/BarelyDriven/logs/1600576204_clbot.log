@@ -1,0 +1,197 @@
+root - INFO - Datetime limit: 09/19/2020, 20:30:04
+root - INFO - Setting up the instagram and twitter accounts
+instabot version: 0.117.0 - INFO - Instabot version: 0.117.0 Started
+instabot version: 0.117.0 - DEBUG - Bot imported from /usr/local/lib/python3.7/dist-packages/instabot/bot/bot.py
+instabot version: 0.117.0 - DEBUG - Loading uuids
+instabot version: 0.117.0 - INFO - Recovery from /home/pi/config/barely_driven_uuid_and_cookie.json: COOKIE False - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=6776543f-d7eb-420a-89f6-a0b1f0277b49
+- uuid=afca3967-35ad-45df-bba9-040f029d02c5
+- client_session_id=47b252c2-7dba-4a9f-8ad4-09048316b3e2
+- device_id=android-ada94cc04528f2b6
+instabot version: 0.117.0 - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+instabot version: 0.117.0 - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Logged-in successfully as 'barely_driven'!
+instabot version: 0.117.0 - INFO - LOGIN FLOW! Just logged-in: True
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - GET to endpoint: zr/token/result/?device_id=android-ada94cc04528f2b6&token_hash=&custom_device_id=android-ada94cc04528f2b6&fetch_reason=token_expired returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - GET to endpoint: multiple_accounts/get_account_family/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - GET to endpoint: igtv/browse_feed/?prefetch=1 returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: creatives/ar_class/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - GET to endpoint: media/blocked/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - GET to endpoint: news/inbox/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - GET to endpoint: loom/fetch_config/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - GET to endpoint: scores/bootstrap/users/?surfaces=["autocomplete_user_list","coefficient_besties_list_ranking","coefficient_rank_recipient_user_suggestion","coefficient_ios_section_test_bootstrap_ranking","coefficient_direct_recipients_ranking_variant_2"] returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - GET to endpoint: business/eligibility/get_monetization_products_eligibility_data/?product_types=branded_content returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - GET to endpoint: business/branded_content/should_require_professional_account/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - GET to endpoint: linked_accounts/get_linkage_status/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - GET to endpoint: locations/request_country/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - GET to endpoint: qp/get_cooldowns/?signed_body=signed_body=4b9c516a5410a3bc128e09c6104a7f042146b9c2023870560c63a43a7f66781c.4&ig_sig_key_version=4&ig_sig_key_version=4 returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - GET to endpoint: users/arlink_download_info/?version_override=2.2.1 returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - GET to endpoint: users/40439054007/info/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - GET to endpoint: direct_v2/get_presence/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - GET to endpoint: direct_v2/inbox/?visual_message_return_type=unseen&thread_message_limit=10&persistentBadging=true&limit=20 returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - GET to endpoint: direct_v2/inbox/?visual_message_return_type=unseen&persistentBadging=true&limit=0 returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - GET to endpoint: discover/topical_explore/?is_prefetch=true&omit_cover_media=true&use_sectional_payload=true&timezone_offset=0&session_id=47b252c2-7dba-4a9f-8ad4-09048316b3e2&include_fixed_destinations=true returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: notifications/badge/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qp/batch_fetch/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - Loading Checkpoint file from: /home/pi/config/barely_driven.checkpoint
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/00A0A_3UjQTW4hjHp_0bC0fu_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00A0A_3UjQTW4hjHp_0bC0fu_600x450.jpg' is uploaded.
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/00A0A_3UjQTW4hjHp_0bC0fu_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00A0A_3UjQTW4hjHp_0bC0fu_600x450.jpg' is uploaded.
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/00f0f_bjSZDlqnsc_0CI0t2_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00f0f_bjSZDlqnsc_0CI0t2_600x450.jpg' is uploaded.
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/00Q0Q_bgqZKB055Vn_0CI0t2_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00Q0Q_bgqZKB055Vn_0CI0t2_600x450.jpg' is uploaded.
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/00D0D_6RClXrWWJ3i_0CI0jp_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00D0D_6RClXrWWJ3i_0CI0jp_600x450.jpg' is uploaded.
+python-craiglist - WARNING - 'hybrid' is not a valid option for auto_fuel_type
+python-craiglist - WARNING - 'electric' is not a valid option for auto_fuel_type
+python-craiglist - WARNING - 'other' is not a valid option for auto_fuel_type
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/00606_4bkqSrtiGH7_0CI0t2_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [502]>
+instabot version: 0.117.0 - DEBUG - Responsecode indicates error; response content: b'<!DOCTYPE html>\n<html lang="en" id="facebook">\n  <head>\n    <title>Facebook | Error</title>\n    <meta charset="utf-8">\n    <meta http-equiv="cache-control" content="no-cache">\n    <meta http-equiv="cache-control" content="no-store">\n    <meta http-equiv="cache-control" content="max-age=0">\n    <meta http-equiv="expires" content="-1">\n    <meta http-equiv="pragma" content="no-cache">\n    <meta name="robots" content="noindex,nofollow">\n    <style>\n      html, body {\n        color: #141823;\n        background-color: #e9eaed;\n        font-family: Helvetica, Lucida Grande, Arial,\n                     Tahoma, Verdana, sans-serif;\n        margin: 0;\n        padding: 0;\n        text-align: center;\n      }\n\n      #header {\n        height: 30px;\n        padding-bottom: 10px;\n        padding-top: 10px;\n        text-align: center;\n      }\n\n      #icon {\n        width: 30px;\n      }\n\n      h1 {\n        font-size: 18px;\n      }\n\n      p {\n        font-size: 13px;\n      }\n\n      #footer {\n        border-top: 1px solid #ddd;\n        color: #9197a3;\n        font-size: 12px;\n        padding: 5px 8px 6px 0;\n      }\n    </style>\n  </head>\n  <body>\n    <div id="header">\n      <a href="//www.facebook.com/">\n        <img id="icon" src="//static.facebook.com/images/logos/facebook_2x.png" />\n      </a>\n    </div>\n    <div id="core">\n      <h1 id="sorry">Sorry, something went wrong.</h1>\n      <p id="promise">\n        We\'re working on it and we\'ll get it fixed as soon as we can.\n      </p>\n      <p id="back-link">\n        <a id="back" href="//www.facebook.com/">Go Back</a>\n      </p>\n      <div id="footer">\n        Facebook\n        <span id="copyright">\n          &copy; 2020\n        </span>\n        <span id="help-link">\n          &#183;\n          <a id="help" href="//www.facebook.com/help/">Help Center</a>\n        </span>\n      </div>\n    </div>\n    <script>\n      document.getElementById(\'back\').onclick = function() {\n        if (history.length > 1) {\n          history.back();\n          return false;\n        }\n      };\n\n      // Adjust the display based on the window size\n      if (window.innerHeight < 80 || window.innerWidth < 80) {\n        // Blank if window is too small\n        document.body.style.display = \'none\';\n      };\n      if (window.innerWidth < 200 || window.innerHeight < 150) {\n        document.getElementById(\'back-link\').style.display = \'none\';\n        document.getElementById(\'help-link\').style.display = \'none\';\n      };\n      if (window.innerWidth < 200) {\n        document.getElementById(\'sorry\').style.fontSize = \'16px\';\n      };\n      if (window.innerWidth < 150) {\n        document.getElementById(\'promise\').style.display = \'none\';\n      };\n      if (window.innerHeight < 150) {\n        document.getElementById(\'sorry\').style.margin = \'4px 0 0 0\';\n        document.getElementById(\'sorry\').style.fontSize = \'14px\';\n        document.getElementById(\'promise\').style.display = \'none\';\n      };\n    </script>\n  </body>\n</html>\n'
+instabot version: 0.117.0 - ERROR - Request returns 502 error!
+instabot version: 0.117.0 - ERROR - Error checking for `feedback_required`, response text is not JSON
+instabot version: 0.117.0 - INFO - Full Response: <Response [502]>
+instabot version: 0.117.0 - INFO - Response Text: <!DOCTYPE html>
+<html lang="en" id="facebook">
+  <head>
+    <title>Facebook | Error</title>
+    <meta charset="utf-8">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="cache-control" content="no-store">
+    <meta http-equiv="cache-control" content="max-age=0">
+    <meta http-equiv="expires" content="-1">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta name="robots" content="noindex,nofollow">
+    <style>
+      html, body {
+        color: #141823;
+        background-color: #e9eaed;
+        font-family: Helvetica, Lucida Grande, Arial,
+                     Tahoma, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+
+      #header {
+        height: 30px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        text-align: center;
+      }
+
+      #icon {
+        width: 30px;
+      }
+
+      h1 {
+        font-size: 18px;
+      }
+
+      p {
+        font-size: 13px;
+      }
+
+      #footer {
+        border-top: 1px solid #ddd;
+        color: #9197a3;
+        font-size: 12px;
+        padding: 5px 8px 6px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <a href="//www.facebook.com/">
+        <img id="icon" src="//static.facebook.com/images/logos/facebook_2x.png" />
+      </a>
+    </div>
+    <div id="core">
+      <h1 id="sorry">Sorry, something went wrong.</h1>
+      <p id="promise">
+        We're working on it and we'll get it fixed as soon as we can.
+      </p>
+      <p id="back-link">
+        <a id="back" href="//www.facebook.com/">Go Back</a>
+      </p>
+      <div id="footer">
+        Facebook
+        <span id="copyright">
+          &copy; 2020
+        </span>
+        <span id="help-link">
+          &#183;
+          <a id="help" href="//www.facebook.com/help/">Help Center</a>
+        </span>
+      </div>
+    </div>
+    <script>
+      document.getElementById('back').onclick = function() {
+        if (history.length > 1) {
+          history.back();
+          return false;
+        }
+      };
+
+      // Adjust the display based on the window size
+      if (window.innerHeight < 80 || window.innerWidth < 80) {
+        // Blank if window is too small
+        document.body.style.display = 'none';
+      };
+      if (window.innerWidth < 200 || window.innerHeight < 150) {
+        document.getElementById('back-link').style.display = 'none';
+        document.getElementById('help-link').style.display = 'none';
+      };
+      if (window.innerWidth < 200) {
+        document.getElementById('sorry').style.fontSize = '16px';
+      };
+      if (window.innerWidth < 150) {
+        document.getElementById('promise').style.display = 'none';
+      };
+      if (window.innerHeight < 150) {
+        document.getElementById('sorry').style.margin = '4px 0 0 0';
+        document.getElementById('sorry').style.fontSize = '14px';
+        document.getElementById('promise').style.display = 'none';
+      };
+    </script>
+  </body>
+</html>
+
+instabot version: 0.117.0 - ERROR - Error unknown send request
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00606_4bkqSrtiGH7_0CI0t2_600x450.jpg' is uploaded.
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/00x0x_ig64DSxDfT9_0pO0jm_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00x0x_ig64DSxDfT9_0pO0jm_600x450.jpg' is uploaded.
+instabot version: 0.117.0 - DEBUG - Saving Checkpoint file to: /home/pi/config/barely_driven.checkpoint
+instabot version: 0.117.0 - INFO - Total requests: 4273

@@ -1,0 +1,13 @@
+root - INFO - Datetime limit: 08/23/2020, 17:06:42
+root - INFO - Setting up the instagram and twitter accounts
+instabot version: 0.117.0 - INFO - Instabot version: 0.117.0 Started
+instabot version: 0.117.0 - DEBUG - Bot imported from /usr/local/lib/python3.7/dist-packages/instabot/bot/bot.py
+instabot version: 0.117.0 - DEBUG - Loading uuids
+instabot version: 0.117.0 - INFO - Recovery from /home/pi/Desktop/CarBot/PyCode/config/carbotsocial@gmail.com_uuid_and_cookie.json: COOKIE False - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=37c8ebcf-99f5-45e2-9582-718d56f816e5
+- uuid=cf136d3b-84cc-400f-8936-2e5a5040b21a
+- client_session_id=594a9976-a62b-4fa1-8001-ffaba2c03fd9
+- device_id=android-893358fb12fb41e0
+instabot version: 0.117.0 - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+instabot version: 0.117.0 - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>

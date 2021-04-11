@@ -1,0 +1,91 @@
+2020-09-23 21:39:53,964 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2020-09-23 21:39:53,965 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from /usr/local/lib/python3.7/dist-packages/instabot/bot/bot.py
+2020-09-23 21:39:53,966 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2020-09-23 21:39:53,967 - instabot version: 0.117.0 (api_login) - INFO - Recovery from /home/pi/Desktop/CarBot/PyCode/Find_An_MCar/config/findanmcar_uuid_and_cookie.json: COOKIE False - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=9d6e8366-0862-45f5-8460-fe0f1b96c181
+- uuid=94c68934-a5a2-4107-9e5a-a786f140ce08
+- client_session_id=a5d012bc-a8f6-4194-bbf8-53e0fdc9c8a9
+- device_id=android-be97a499566ebce3
+2020-09-23 21:39:53,967 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2020-09-23 21:39:54,096 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2020-09-23 21:39:54,194 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2020-09-23 21:39:54,328 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2020-09-23 21:39:54,425 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2020-09-23 21:39:55,892 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [200]>
+2020-09-23 21:39:55,893 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'findanmcar'!
+2020-09-23 21:39:55,893 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: True
+2020-09-23 21:39:56,136 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2020-09-23 21:39:56,366 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2020-09-23 21:39:56,638 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: zr/token/result/?device_id=android-be97a499566ebce3&token_hash=&custom_device_id=android-be97a499566ebce3&fetch_reason=token_expired returned response: <Response [200]>
+2020-09-23 21:39:56,866 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: multiple_accounts/get_account_family/ returned response: <Response [200]>
+2020-09-23 21:39:57,123 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2020-09-23 21:39:57,362 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: igtv/browse_feed/?prefetch=1 returned response: <Response [200]>
+2020-09-23 21:39:57,550 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: creatives/ar_class/ returned response: <Response [200]>
+2020-09-23 21:39:57,823 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-09-23 21:39:59,598 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-09-23 21:39:59,810 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/blocked/ returned response: <Response [200]>
+2020-09-23 21:40:00,203 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: news/inbox/ returned response: <Response [200]>
+2020-09-23 21:40:00,417 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: loom/fetch_config/ returned response: <Response [200]>
+2020-09-23 21:40:00,659 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: scores/bootstrap/users/?surfaces=["autocomplete_user_list","coefficient_besties_list_ranking","coefficient_rank_recipient_user_suggestion","coefficient_ios_section_test_bootstrap_ranking","coefficient_direct_recipients_ranking_variant_2"] returned response: <Response [200]>
+2020-09-23 21:40:00,904 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: business/eligibility/get_monetization_products_eligibility_data/?product_types=branded_content returned response: <Response [200]>
+2020-09-23 21:40:01,482 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: business/branded_content/should_require_professional_account/ returned response: <Response [200]>
+2020-09-23 21:40:01,982 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: linked_accounts/get_linkage_status/ returned response: <Response [200]>
+2020-09-23 21:40:02,266 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: locations/request_country/ returned response: <Response [200]>
+2020-09-23 21:40:02,564 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: qp/get_cooldowns/?signed_body=signed_body=4b9c516a5410a3bc128e09c6104a7f042146b9c2023870560c63a43a7f66781c.4&ig_sig_key_version=4&ig_sig_key_version=4 returned response: <Response [200]>
+2020-09-23 21:40:03,273 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/arlink_download_info/?version_override=2.2.1 returned response: <Response [200]>
+2020-09-23 21:40:03,944 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/42380627637/info/ returned response: <Response [200]>
+2020-09-23 21:40:04,249 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/get_presence/ returned response: <Response [200]>
+2020-09-23 21:40:04,513 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/inbox/?visual_message_return_type=unseen&thread_message_limit=10&persistentBadging=true&limit=20 returned response: <Response [200]>
+2020-09-23 21:40:04,700 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/inbox/?visual_message_return_type=unseen&persistentBadging=true&limit=0 returned response: <Response [200]>
+2020-09-23 21:40:05,063 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: discover/topical_explore/?is_prefetch=true&omit_cover_media=true&use_sectional_payload=true&timezone_offset=0&session_id=a5d012bc-a8f6-4194-bbf8-53e0fdc9c8a9&include_fixed_destinations=true returned response: <Response [200]>
+2020-09-23 21:40:05,286 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: notifications/badge/ returned response: <Response [200]>
+2020-09-23 21:40:05,655 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qp/batch_fetch/ returned response: <Response [200]>
+2020-09-23 21:40:05,656 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: /home/pi/Desktop/CarBot/PyCode/Find_An_MCar/config/findanmcar.checkpoint
+2020-09-23 21:41:36,494 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-09-23 21:41:36,802 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-09-23 21:41:36,803 - instabot version: 0.117.0 (bot_photo) - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00606_jrdhsmH5v3E_0lM0t2_600x450.jpg' is uploaded.
+2020-09-23 21:42:00,940 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-09-23 21:42:01,183 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-09-23 21:42:01,183 - instabot version: 0.117.0 (bot_photo) - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00B0B_gho5XbUvlBK_0CI0t2_600x450.jpg' is uploaded.
+2020-09-23 21:42:35,101 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-09-23 21:42:35,325 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-09-23 21:42:35,326 - instabot version: 0.117.0 (bot_photo) - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00c0c_KJSe0gcZ6I_0CI0o2_600x450.jpg' is uploaded.
+2020-09-23 21:43:05,004 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-09-23 21:43:05,185 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-09-23 21:43:05,186 - instabot version: 0.117.0 (bot_photo) - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00w0w_i8cuvTrDHx2_0jm0ew_600x450.jpg' is uploaded.
+2020-09-23 21:43:43,551 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-09-23 21:43:43,746 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-09-23 21:43:43,747 - instabot version: 0.117.0 (bot_photo) - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00u0u_aghDjcAnlRG_0CI0t2_600x450.jpg' is uploaded.
+2020-09-23 21:44:43,276 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-09-23 21:44:43,479 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-09-23 21:44:43,479 - instabot version: 0.117.0 (bot_photo) - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00D0D_2uH9FYveWyN_0t20CI_600x450.jpg' is uploaded.
+2020-09-23 21:45:24,655 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-09-23 21:45:24,859 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-09-23 21:45:24,860 - instabot version: 0.117.0 (bot_photo) - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00D0D_2uH9FYveWyN_0t20CI_600x450.jpg' is uploaded.
+2020-09-23 21:46:02,196 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-09-23 21:46:02,413 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-09-23 21:46:02,415 - instabot version: 0.117.0 (bot_photo) - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00H0H_k2AmPLgAqvq_0jm0ew_600x450.jpg' is uploaded.
+2020-09-23 21:48:00,921 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-09-23 21:48:01,162 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-09-23 21:48:01,163 - instabot version: 0.117.0 (bot_photo) - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00q0q_h29aLkfH5id_0CI0t2_600x450.jpg' is uploaded.
+2020-09-23 21:49:24,095 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-09-23 21:49:24,315 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-09-23 21:49:24,315 - instabot version: 0.117.0 (bot_photo) - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/01616_jqryUgGdrE2_0CI0t2_600x450.jpg' is uploaded.
+2020-09-23 21:50:57,863 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-09-23 21:50:58,066 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-09-23 21:50:58,067 - instabot version: 0.117.0 (bot_photo) - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00202_eeWTqkm2Chc_06K054_600x450.jpg' is uploaded.
+2020-09-23 21:53:29,517 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-09-23 21:53:29,702 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-09-23 21:53:29,703 - instabot version: 0.117.0 (bot_photo) - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00A0A_eLFTUGwIDjH_0ak0ak_600x450.jpg' is uploaded.
+2020-09-23 21:53:54,545 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-09-23 21:53:54,825 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-09-23 21:53:54,826 - instabot version: 0.117.0 (bot_photo) - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00D0D_6u0bm5MtJia_0lM0t2_600x450.jpg' is uploaded.
+2020-09-23 21:56:22,014 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-09-23 21:56:22,260 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-09-23 21:56:22,261 - instabot version: 0.117.0 (bot_photo) - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00H0H_d7jThcUjAe6_0CI0t2_600x450.jpg' is uploaded.
+2020-09-23 21:57:09,677 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-09-23 21:57:10,020 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-09-23 21:57:10,020 - instabot version: 0.117.0 (bot_photo) - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/01515_16BoYMbaqqA_0CI0sb_600x450.jpg' is uploaded.
+2020-09-23 21:57:50,615 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /home/pi/Desktop/CarBot/PyCode/Find_An_MCar/config/findanmcar.checkpoint
+2020-09-23 21:57:50,616 - instabot version: 0.117.0 (bot) - INFO - Total requests: 61

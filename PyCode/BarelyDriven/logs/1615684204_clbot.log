@@ -1,0 +1,241 @@
+root - INFO - Datetime limit: 03/13/2021, 16:10:04
+root - INFO - Setting up the instagram and twitter accounts
+instabot version: 0.117.0 - INFO - Instabot version: 0.117.0 Started
+instabot version: 0.117.0 - DEBUG - Bot imported from /usr/local/lib/python3.7/dist-packages/instabot/bot/bot.py
+instabot version: 0.117.0 - DEBUG - Loading uuids
+instabot version: 0.117.0 - INFO - Recovery from /home/pi/config/barely_driven_uuid_and_cookie.json: COOKIE False - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=6776543f-d7eb-420a-89f6-a0b1f0277b49
+- uuid=afca3967-35ad-45df-bba9-040f029d02c5
+- client_session_id=47b252c2-7dba-4a9f-8ad4-09048316b3e2
+- device_id=android-ada94cc04528f2b6
+instabot version: 0.117.0 - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+instabot version: 0.117.0 - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Logged-in successfully as 'barely_driven'!
+instabot version: 0.117.0 - INFO - LOGIN FLOW! Just logged-in: True
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - GET to endpoint: zr/token/result/?device_id=android-ada94cc04528f2b6&token_hash=&custom_device_id=android-ada94cc04528f2b6&fetch_reason=token_expired returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - GET to endpoint: multiple_accounts/get_account_family/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - GET to endpoint: igtv/browse_feed/?prefetch=1 returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: creatives/ar_class/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - GET to endpoint: media/blocked/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - GET to endpoint: news/inbox/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - GET to endpoint: loom/fetch_config/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - GET to endpoint: scores/bootstrap/users/?surfaces=["autocomplete_user_list","coefficient_besties_list_ranking","coefficient_rank_recipient_user_suggestion","coefficient_ios_section_test_bootstrap_ranking","coefficient_direct_recipients_ranking_variant_2"] returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - GET to endpoint: business/eligibility/get_monetization_products_eligibility_data/?product_types=branded_content returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - GET to endpoint: business/branded_content/should_require_professional_account/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - GET to endpoint: linked_accounts/get_linkage_status/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - GET to endpoint: locations/request_country/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - GET to endpoint: qp/get_cooldowns/?signed_body=signed_body=4b9c516a5410a3bc128e09c6104a7f042146b9c2023870560c63a43a7f66781c.4&ig_sig_key_version=4&ig_sig_key_version=4 returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - GET to endpoint: users/arlink_download_info/?version_override=2.2.1 returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - GET to endpoint: users/40439054007/info/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - GET to endpoint: direct_v2/get_presence/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - GET to endpoint: direct_v2/inbox/?visual_message_return_type=unseen&thread_message_limit=10&persistentBadging=true&limit=20 returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - GET to endpoint: direct_v2/inbox/?visual_message_return_type=unseen&persistentBadging=true&limit=0 returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - GET to endpoint: discover/topical_explore/?is_prefetch=true&omit_cover_media=true&use_sectional_payload=true&timezone_offset=0&session_id=47b252c2-7dba-4a9f-8ad4-09048316b3e2&include_fixed_destinations=true returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: notifications/badge/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qp/batch_fetch/ returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - Loading Checkpoint file from: /home/pi/config/barely_driven.checkpoint
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/00808_dHSOTB1TMLXz_0CI0lM_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00808_dHSOTB1TMLXz_0CI0lM_600x450.jpg' is uploaded.
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/00K0K_jR1rO3Y1SA6z_0t20CI_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00K0K_jR1rO3Y1SA6z_0t20CI_600x450.jpg' is uploaded.
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/00101_89OsMlnM0TTz_0k90f7_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00101_89OsMlnM0TTz_0k90f7_600x450.jpg' is uploaded.
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/00x0x_kRR1JwbEDBBz_0ew0jm_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00x0x_kRR1JwbEDBBz_0ew0jm_600x450.jpg' is uploaded.
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/00l0l_dfrdP1Dnmmjz_0CI0t2_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00l0l_dfrdP1Dnmmjz_0CI0t2_600x450.jpg' is uploaded.
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/00G0G_3y65cI2O8Jvz_0CI0t2_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00G0G_3y65cI2O8Jvz_0CI0t2_600x450.jpg' is uploaded.
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/00l0l_1NE3PwCuPuyz_0CI0lM_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00l0l_1NE3PwCuPuyz_0CI0lM_600x450.jpg' is uploaded.
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/00J0J_9T0DJQSIDuAz_0CI0t2_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00J0J_9T0DJQSIDuAz_0CI0t2_600x450.jpg' is uploaded.
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/00G0G_jndsQOd5M2Iz_0ww0ii_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00G0G_jndsQOd5M2Iz_0ww0ii_600x450.jpg' is uploaded.
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/00W0W_ihOpE95C5oiz_1320MM_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00W0W_ihOpE95C5oiz_1320MM_600x450.jpg' is uploaded.
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/00h0h_cr0eh1PAvCoz_0x20m1_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00h0h_cr0eh1PAvCoz_0x20m1_600x450.jpg' is uploaded.
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/01616_Zj69eNX84Sz_0lM0t2_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/01616_Zj69eNX84Sz_0lM0t2_600x450.jpg' is uploaded.
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/00A0A_bKGQqZjUbZ4z_0yS0t2_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00A0A_bKGQqZjUbZ4z_0yS0t2_600x450.jpg' is uploaded.
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/00h0h_eyDRJ05xZR3z_0CI0t2_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00h0h_eyDRJ05xZR3z_0CI0t2_600x450.jpg' is uploaded.
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/00y0y_fzmj215qmGiz_0CI0t2_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00y0y_fzmj215qmGiz_0CI0t2_600x450.jpg' is uploaded.
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/00j0j_jxhN2e3Q21hz_0CI0t2_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00j0j_jxhN2e3Q21hz_0CI0t2_600x450.jpg' is uploaded.
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/00X0X_jT18OwZXW8Wz_0kJ0CI_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00X0X_jT18OwZXW8Wz_0kJ0CI_600x450.jpg' is uploaded.
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/00k0k_20XJZnbsTmDz_0CI0t2_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00k0k_20XJZnbsTmDz_0CI0t2_600x450.jpg' is uploaded.
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/00R0R_9UATff5venx_0x20fK_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00R0R_9UATff5venx_0x20fK_600x450.jpg' is uploaded.
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/00U0U_3ClKA1ssD5qz_0CI0t2_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00U0U_3ClKA1ssD5qz_0CI0t2_600x450.jpg' is uploaded.
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/00z0z_hMg4B6iaZinz_0hq09O_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00z0z_hMg4B6iaZinz_0hq09O_600x450.jpg' is uploaded.
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/00r0r_cNm8dD95Snqz_0c60lw_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00r0r_cNm8dD95Snqz_0c60lw_600x450.jpg' is uploaded.
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/00F0F_5RRCPmIq0c3z_0ww0oo_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00F0F_5RRCPmIq0c3z_0ww0oo_600x450.jpg' is uploaded.
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/00Z0Z_hTUfY3sRiI7z_0CI0hq_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00Z0Z_hTUfY3sRiI7z_0CI0hq_600x450.jpg' is uploaded.
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/01717_4X4OXYCQsnRz_0kE0a6_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/01717_4X4OXYCQsnRz_0kE0a6_600x450.jpg' is uploaded.
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/00y0y_9myv9U1oMWzz_0CI0t2_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00y0y_9myv9U1oMWzz_0CI0t2_600x450.jpg' is uploaded.
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/01111_hgq38LndkXBz_0ak07K_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/01111_hgq38LndkXBz_0ak07K_600x450.jpg' is uploaded.
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/00Q0Q_ftkaVTEA6bDz_0pa0iS_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00Q0Q_ftkaVTEA6bDz_0pa0iS_600x450.jpg' is uploaded.
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/00808_hQDhowCoGaHz_0hq0d4_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00808_hQDhowCoGaHz_0hq0d4_600x450.jpg' is uploaded.
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/00303_5qblz5zo366z_0CI0t2_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00303_5qblz5zo366z_0CI0t2_600x450.jpg' is uploaded.
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/00S0S_cA11f910c3Fz_0CI0t2_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00S0S_cA11f910c3Fz_0CI0t2_600x450.jpg' is uploaded.
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/00x0x_aDQaegBccNoz_0CI0t2_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00x0x_aDQaegBccNoz_0CI0t2_600x450.jpg' is uploaded.
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/00h0h_g3PmpJwtsiyz_1320MM_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00h0h_g3PmpJwtsiyz_1320MM_600x450.jpg' is uploaded.
+python-craiglist - WARNING - 'hybrid' is not a valid option for auto_fuel_type
+python-craiglist - WARNING - 'electric' is not a valid option for auto_fuel_type
+python-craiglist - WARNING - 'other' is not a valid option for auto_fuel_type
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/00i0i_bGQ8FZoZckgz_0CI0pR_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00i0i_bGQ8FZoZckgz_0CI0pR_600x450.jpg' is uploaded.
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/00a0a_ahVPHKkI3n7z_0CI0t2_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00a0a_ahVPHKkI3n7z_0CI0t2_600x450.jpg' is uploaded.
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/00v0v_dr9uGpQNFgHz_0dQ0ao_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00v0v_dr9uGpQNFgHz_0dQ0ao_600x450.jpg' is uploaded.
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/01717_4X4OXYCQsnRz_0kE0a6_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/01717_4X4OXYCQsnRz_0kE0a6_600x450.jpg' is uploaded.
+root - INFO - found result!
+root - INFO - https://images.craigslist.org/00X0X_532h7x7vhZEz_0CI0t2_600x450.jpg
+instabot version: 0.117.0 - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+instabot version: 0.117.0 - INFO - Photo '/home/pi/Desktop/CarBot/PyCode/00X0X_532h7x7vhZEz_0CI0t2_600x450.jpg' is uploaded.
+instabot version: 0.117.0 - DEBUG - Saving Checkpoint file to: /home/pi/config/barely_driven.checkpoint
+instabot version: 0.117.0 - INFO - Total requests: 15570

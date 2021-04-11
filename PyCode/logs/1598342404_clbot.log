@@ -1,0 +1,6 @@
+root - INFO - Datetime limit: 08/25/2020, 00:00:03
+root - INFO - Setting up the instagram and twitter accounts
+python-craiglist - WARNING - 'clean' is not a valid option for auto_title_status
+python-craiglist - WARNING - 'salvage' is not a valid option for auto_title_status
+python-craiglist - WARNING - 'rebuilt' is not a valid option for auto_title_status
+python-craiglist - WARNING - 'lien' is not a valid option for auto_title_status

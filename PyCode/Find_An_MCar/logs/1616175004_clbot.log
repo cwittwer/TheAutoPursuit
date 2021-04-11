@@ -1,0 +1,80 @@
+root - INFO - Datetime limit: 03/19/2021, 09:30:03
+root - INFO - Setting up the instagram and twitter accounts
+instabot version: 0.117.0 - INFO - Instabot version: 0.117.0 Started
+instabot version: 0.117.0 - DEBUG - Bot imported from /usr/local/lib/python3.7/dist-packages/instabot/bot/bot.py
+instabot version: 0.117.0 - DEBUG - Loading uuids
+instabot version: 0.117.0 - INFO - Recovery from /home/pi/config/findanmcar_uuid_and_cookie.json: COOKIE False - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=5d9fefc2-8c72-42d9-b080-455561985772
+- uuid=ade27930-38b4-46e7-8c59-6dd220abda53
+- client_session_id=4200fba2-2d11-44a5-8b4e-c369e8dc9d9e
+- device_id=android-be97a499566ebce3
+instabot version: 0.117.0 - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+instabot version: 0.117.0 - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [503]>
+instabot version: 0.117.0 - DEBUG - Responsecode indicates error; response content: b'<html>\n<head>\n<title>5xx Server Error</title>\n</head>\n\n<body>\n<h1>5xx Server Error</h1>\n</body>\n\n</html>\n'
+instabot version: 0.117.0 - ERROR - Request returns 503 error!
+instabot version: 0.117.0 - ERROR - Error checking for `feedback_required`, response text is not JSON
+instabot version: 0.117.0 - INFO - Full Response: <Response [503]>
+instabot version: 0.117.0 - INFO - Response Text: <html>
+<head>
+<title>5xx Server Error</title>
+</head>
+
+<body>
+<h1>5xx Server Error</h1>
+</body>
+
+</html>
+
+instabot version: 0.117.0 - ERROR - Error unknown send request
+instabot version: 0.117.0 - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [503]>
+instabot version: 0.117.0 - DEBUG - Responsecode indicates error; response content: b'<html>\n<head>\n<title>5xx Server Error</title>\n</head>\n\n<body>\n<h1>5xx Server Error</h1>\n</body>\n\n</html>\n'
+instabot version: 0.117.0 - ERROR - Request returns 503 error!
+instabot version: 0.117.0 - ERROR - Error checking for `feedback_required`, response text is not JSON
+instabot version: 0.117.0 - INFO - Full Response: <Response [503]>
+instabot version: 0.117.0 - INFO - Response Text: <html>
+<head>
+<title>5xx Server Error</title>
+</head>
+
+<body>
+<h1>5xx Server Error</h1>
+</body>
+
+</html>
+
+instabot version: 0.117.0 - ERROR - Error unknown send request
+instabot version: 0.117.0 - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [503]>
+instabot version: 0.117.0 - DEBUG - Responsecode indicates error; response content: b'<html>\n<head>\n<title>5xx Server Error</title>\n</head>\n\n<body>\n<h1>5xx Server Error</h1>\n</body>\n\n</html>\n'
+instabot version: 0.117.0 - ERROR - Request returns 503 error!
+instabot version: 0.117.0 - ERROR - Error checking for `feedback_required`, response text is not JSON
+instabot version: 0.117.0 - INFO - Full Response: <Response [503]>
+instabot version: 0.117.0 - INFO - Response Text: <html>
+<head>
+<title>5xx Server Error</title>
+</head>
+
+<body>
+<h1>5xx Server Error</h1>
+</body>
+
+</html>
+
+instabot version: 0.117.0 - ERROR - Error unknown send request
+instabot version: 0.117.0 - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [503]>
+instabot version: 0.117.0 - DEBUG - Responsecode indicates error; response content: b'<html>\n<head>\n<title>5xx Server Error</title>\n</head>\n\n<body>\n<h1>5xx Server Error</h1>\n</body>\n\n</html>\n'
+instabot version: 0.117.0 - ERROR - Request returns 503 error!
+instabot version: 0.117.0 - ERROR - Error checking for `feedback_required`, response text is not JSON
+instabot version: 0.117.0 - INFO - Full Response: <Response [503]>
+instabot version: 0.117.0 - INFO - Response Text: <html>
+<head>
+<title>5xx Server Error</title>
+</head>
+
+<body>
+<h1>5xx Server Error</h1>
+</body>
+
+</html>
+
+instabot version: 0.117.0 - ERROR - Error unknown send request

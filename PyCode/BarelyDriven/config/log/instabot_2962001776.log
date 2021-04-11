@@ -1,0 +1,19 @@
+2020-08-29 17:57:05,809 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2020-08-29 17:57:05,810 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from /usr/local/lib/python3.7/dist-packages/instabot/bot/bot.py
+2020-08-29 17:57:05,811 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2020-08-29 17:57:05,811 - instabot version: 0.117.0 (api_login) - INFO - Recovery from /home/pi/Desktop/CarBot/PyCode/BarelyDriven/config/barely_driven_uuid_and_cookie.json: COOKIE False - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=c7efa594-4a08-4dba-8136-84d320b3e526
+- uuid=c5ff4638-3e7a-4ad6-871f-06a83482b225
+- client_session_id=6131c830-0c4c-4163-b6ce-23cb1b068bc4
+- device_id=android-ada94cc04528f2b6
+2020-08-29 17:57:05,812 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2020-08-29 17:57:05,981 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2020-08-29 17:57:06,129 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2020-08-29 17:57:06,279 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2020-08-29 17:57:06,382 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2020-08-29 17:57:07,866 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [200]>
+2020-08-29 17:57:07,866 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'barely_driven'!
+2020-08-29 17:57:07,867 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: True
+2020-08-29 17:57:08,372 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2020-08-29 17:57:08,895 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>

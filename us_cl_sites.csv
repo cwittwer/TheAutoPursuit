@@ -1,0 +1,417 @@
+﻿.,areaID,site,Location,State
+aub,372,auburn,auburn,Alabama
+bhm,127,bham,birmingham,Alabama
+dhn,467,dothan,dothan,Alabama
+msl,560,shoals,florence / muscle shoals,Alabama
+anb,559,gadsden,gadsden-anniston,Alabama
+hsv,231,huntsville,huntsville / decatur,Alabama
+mob,200,mobile,mobile,Alabama
+mgm,207,montgomery,montgomery,Alabama
+tsc,371,tuscaloosa,tuscaloosa,Alabama
+anc,51,anchorage,anchorage / mat-su,Alaska
+fai,677,fairbanks,fairbanks,Alaska
+ena,678,kenai,kenai peninsula,Alaska
+jnu,676,juneau,southeast alaska,Alaska
+flg,244,flagstaff,flagstaff / sedona,Arizona
+mhv,565,mohave,mohave county,Arizona
+phx,18,phoenix,phoenix,Arizona
+prc,419,prescott,prescott,Arizona
+sow,651,showlow,show low,Arizona
+fhu,468,sierravista,sierra vista,Arizona
+tus,57,tucson,tucson,Arizona
+yum,370,yuma,yuma,Arizona
+fyv,293,fayar,fayetteville,Arkansas
+fsm,358,fortsmith,fort smith,Arkansas
+jbr,425,jonesboro,jonesboro,Arkansas
+lit,100,littlerock,little rock,Arkansas
+txk,359,texarkana,texarkana,Arkansas
+bak,63,bakersfield,bakersfield,California
+chc,187,chico,chico,California
+fre,43,fresno,fresno / madera,California
+gld,373,goldcountry,gold country,California
+hnf,709,hanford,hanford-corcoran,California
+hmb,189,humboldt,humboldt county,California
+imp,455,imperial,imperial county,California
+inl,104,inlandempire,inland empire,California
+lax,7,losangeles,los angeles,California
+mdo,454,mendocino,mendocino county,California
+mer,285,merced,merced,California
+mod,96,modesto,modesto,California
+mtb,102,monterey,monterey bay,California
+orc,103,orangecounty,orange county,California
+psp,209,palmsprings,palm springs,California
+rdd,188,redding,redding,California
+sac,12,sacramento,sacramento,California
+sdo,8,sandiego,san diego,California
+slo,191,slo,san luis obispo,California
+sba,62,santabarbara,santa barbara,California
+smx,710,santamaria,santa maria,California
+sfo,1,sfbay,san francisco bay area,California
+ssk,708,siskiyou,siskiyou county,California
+stk,97,stockton,stockton,California
+ssn,707,susanville,susanville,California
+oxr,208,ventura,ventura county,California
+vis,346,visalia,visalia-tulare,California
+ybs,456,yubasutter,yuba-sutter,California
+bou,319,boulder,boulder,Colorado
+cos,210,cosprings,colorado springs,Colorado
+den,13,denver,denver,Colorado
+eco,713,eastco,eastern CO,Colorado
+ftc,287,fortcollins,fort collins / north CO,Colorado
+rck,288,rockies,high rockies,Colorado
+pub,315,pueblo,pueblo,Colorado
+gjt,320,westslope,western slope,Colorado
+nlo,281,newlondon,eastern CT,Connecticut
+htf,44,hartford,hartford,Connecticut
+hvn,168,newhaven,new haven,Connecticut
+nct,354,nwct,northwest CT,Connecticut
+dlw,193,delaware,delaware,Delaware
+wdc,10,washingtondc,washington,District of Columbia
+dab,238,daytona,daytona beach,Florida
+key,330,keys,florida keys,Florida
+mia,20,fortlauderdale,fort lauderdale,Florida
+fmy,125,fortmyers,ft myers / SW florida,Florida
+gnv,219,gainesville,gainesville,Florida
+cfl,639,cfl,heartland florida,Florida
+jax,80,jacksonville,jacksonville,Florida
+lal,376,lakeland,lakeland,Florida
+lcq,638,lakecity,north central FL,Florida
+oca,333,ocala,ocala,Florida
+yps,640,okaloosa,okaloosa / walton,Florida
+orl,39,orlando,orlando,Florida
+pfn,562,panamacity,panama city,Florida
+pns,203,pensacola,pensacola,Florida
+srq,237,sarasota,sarasota-bradenton,Florida
+mia,20,miami,south florida,Florida
+mlb,331,spacecoast,space coast,Florida
+ust,557,staugustine,st augustine,Florida
+tal,186,tallahassee,tallahassee,Florida
+tpa,37,tampa,tampa bay area,Florida
+psl,332,treasure,treasure coast,Florida
+aby,637,albanyga,albany,Georgia
+ahn,258,athensga,athens,Georgia
+atl,14,atlanta,atlanta,Georgia
+aug,256,augusta,augusta,Georgia
+bwk,570,brunswick,brunswick,Georgia
+csg,343,columbusga,columbus,Georgia
+mcn,257,macon,macon / warner robins,Georgia
+nwg,636,nwga,northwest GA,Georgia
+sav,205,savannah,savannah / hinesville,Georgia
+tbr,635,statesboro,statesboro,Georgia
+vld,427,valdosta,valdosta,Georgia
+hnl,28,honolulu,hawaii,Hawaii
+boi,52,boise,boise,Idaho
+eid,424,eastidaho,east idaho,Idaho
+lws,654,lewiston,lewiston / clarkston,Idaho
+twf,469,twinfalls,twin falls,Idaho
+bln,344,bn,bloomington-normal,Illinois
+chm,190,chambana,champaign urbana,Illinois
+chi,11,chicago,chicago,Illinois
+dil,569,decatur,decatur,Illinois
+lsl,698,lasalle,la salle co,Illinois
+mto,699,mattoon,mattoon-charleston,Illinois
+pia,224,peoria,peoria,Illinois
+rfd,223,rockford,rockford,Illinois
+cbd,345,carbondale,southern illinois,Illinois
+spi,225,springfieldil,springfield,Illinois
+qcy,697,quincy,western IL,Illinois
+bmg,229,bloomington,bloomington,Indiana
+ew,227,evansville,evansville,Indiana
+fwa,226,fortwayne,fort wayne,Indiana
+ind,45,indianapolis,indianapolis,Indiana
+okk,672,kokomo,kokomo,Indiana
+laf,360,tippecanoe,lafayette / west lafayette,Indiana
+mun,361,muncie,muncie / anderson,Indiana
+rin,671,richmondin,richmond,Indiana
+sbn,228,southbend,south bend / michiana,Indiana
+tha,348,terrehaute,terre haute,Indiana
+ame,445,ames,ames,Iowa
+ced,340,cedarrapids,cedar rapids,Iowa
+dsm,98,desmoines,des moines,Iowa
+dbq,362,dubuque,dubuque,Iowa
+ftd,693,fortdodge,fort dodge,Iowa
+iac,339,iowacity,iowa city,Iowa
+msc,692,masoncity,mason city,Iowa
+mli,307,quadcities,quad cities,Iowa
+sux,341,siouxcity,sioux city,Iowa
+otu,691,ottumwa,southeast IA,Iowa
+wlo,567,waterloo,waterloo / cedar falls,Iowa
+lwr,347,lawrence,lawrence,Kansas
+mhk,428,ksu,manhattan,Kansas
+nwk,688,nwks,northwest KS,Kansas
+sns,690,salina,salina,Kansas
+sek,689,seks,southeast KS,Kansas
+swk,687,swks,southwest KS,Kansas
+tpk,280,topeka,topeka,Kansas
+wic,99,wichita,wichita,Kansas
+blg,342,bgky,bowling green,Kentucky
+eky,674,eastky,eastern kentucky,Kentucky
+lex,133,lexington,lexington,Kentucky
+lou,58,louisville,louisville,Kentucky
+owb,673,owensboro,owensboro,Kentucky
+wky,377,westky,western KY,Kentucky
+btr,199,batonrouge,baton rouge,Louisiana
+aex,644,cenla,central louisiana,Louisiana
+hum,643,houma,houma,Louisiana
+lft,283,lafayette,lafayette,Louisiana
+lkc,284,lakecharles,lake charles,Louisiana
+mlu,563,monroemi,monroe,Louisiana
+nor,31,neworleans,new orleans,Louisiana
+shv,206,shreveport,shreveport,Louisiana
+mne,169,maine,maine,Maine
+anp,460,annapolis,annapolis,Maryland
+bal,34,baltimore,baltimore,Maryland
+esh,328,easternshore,eastern shore,Maryland
+fdk,633,frederick,frederick,Maryland
+smd,556,smd,southern maryland,Maryland
+wmd,329,westmd,western maryland,Maryland
+bos,4,boston,boston,Massachusetts
+cap,239,capecod,cape cod / islands,Massachusetts
+sma,378,southcoast,south coast,Massachusetts
+wma,173,westernmass,western massachusetts,Massachusetts
+wor,240,worcester,worcester / central MA,Massachusetts
+aaa,172,annarbor,ann arbor,Michigan
+btc,628,battlecreek,battle creek,Michigan
+cmu,434,centralmich,central michigan,Michigan
+det,22,detroit,detroit metro,Michigan
+fnt,259,flint,flint,Michigan
+grr,129,grandrapids,grand rapids,Michigan
+hld,630,holland,holland,Michigan
+jxn,426,jxn,jackson,Michigan
+kzo,261,kalamazoo,kalamazoo,Michigan
+lan,212,lansing,lansing,Michigan
+mnr,629,monroe,monroe,Michigan
+mkg,554,muskegon,muskegon,Michigan
+nmi,309,nmi,northern michigan,Michigan
+phn,555,porthuron,port huron,Michigan
+mbs,260,saginaw,saginaw-midland-baycity,Michigan
+swm,572,swmi,southwest michigan,Michigan
+thb,627,thumb,the thumb,Michigan
+yup,262,up,upper peninsula,Michigan
+bji,663,bemidji,bemidji,Minnesota
+brd,664,brainerd,brainerd,Minnesota
+dlh,255,duluth,duluth / superior,Minnesota
+mkt,421,mankato,mankato,Minnesota
+min,19,minneapolis,minneapolis / st paul,Minnesota
+rmn,316,rmn,rochester,Minnesota
+mml,665,marshall,southwest MN,Minnesota
+stc,369,stcloud,st cloud,Minnesota
+gpt,230,gulfport,gulfport / biloxi,Mississippi
+usm,374,hattiesburg,hattiesburg,Mississippi
+jan,134,jackson,jackson,Mississippi
+mei,641,meridian,meridian,Mississippi
+nms,375,northmiss,north mississippi,Mississippi
+hez,642,natchez,southwest MS,Mississippi
+cou,222,columbiamo,columbia / jeff city,Missouri
+jln,423,joplin,joplin,Missouri
+ksc,30,kansascity,kansas city,Missouri
+krk,696,kirksville,kirksville,Missouri
+loz,695,loz,lake of the ozarks,Missouri
+smo,566,semo,southeast missouri,Missouri
+sgf,221,springfield,springfield,Missouri
+stj,694,stjoseph,st joseph,Missouri
+stl,29,stlouis,st louis,Missouri
+bil,657,billings,billings,Montana
+bzn,658,bozeman,bozeman,Montana
+btm,661,butte,butte,Montana
+gtf,660,greatfalls,great falls,Montana
+hln,659,helena,helena,Montana
+fca,662,kalispell,kalispell,Montana
+mso,656,missoula,missoula,Montana
+mnt,192,montana,montana (old),Montana
+gil,432,grandisland,grand island,Nebraska
+lnk,282,lincoln,lincoln,Nebraska
+lbf,668,northplatte,north platte,Nebraska
+oma,55,omaha,omaha / council bluffs,Nebraska
+bff,669,scottsbluff,scottsbluff / panhandle,Nebraska
+elk,652,elko,elko,Nevada
+lvg,26,lasvegas,las vegas,Nevada
+rno,92,reno,reno / tahoe,Nevada
+nhm,198,nh,new hampshire,New Hampshire
+cnj,349,cnj,central NJ,New Jersey
+jys,561,jerseyshore,jersey shore,New Jersey
+njy,170,newjersey,north jersey,New Jersey
+snj,286,southjersey,south jersey,New Jersey
+abq,50,albuquerque,albuquerque,New Mexico
+cvn,653,clovis,clovis / portales,New Mexico
+fnm,568,farmington,farmington,New Mexico
+lcr,334,lascruces,las cruces,New Mexico
+row,420,roswell,roswell / carlsbad,New Mexico
+saf,218,santafe,santa fe / taos,New Mexico
+alb,59,albany,albany,New York
+bgm,248,binghamton,binghamton,New York
+buf,40,buffalo,buffalo,New York
+cat,451,catskills,catskills,New York
+chq,452,chautauqua,chautauqua,New York
+elm,453,elmira,elmira-corning,New York
+fgl,685,fingerlakes,finger lakes,New York
+gfl,686,glensfalls,glens falls,New York
+hud,249,hudsonvalley,hudson valley,New York
+ith,201,ithaca,ithaca,New York
+isp,250,longisland,long island,New York
+nyc,3,newyork,new york city,New York
+onh,684,oneonta,oneonta,New York
+plb,338,plattsburgh,plattsburgh-adirondacks,New York
+ptd,683,potsdam,potsdam-canton-massena,New York
+rcs,126,rochester,rochester,New York
+syr,130,syracuse,syracuse,New York
+tts,704,twintiers,twin tiers NY/PA,New York
+uti,247,utica,utica-rome-oneida,New York
+wtn,337,watertown,watertown,New York
+ash,171,asheville,asheville,North Carolina
+bnc,446,boone,boone,North Carolina
+cha,41,charlotte,charlotte,North Carolina
+enc,335,eastnc,eastern NC,North Carolina
+fay,273,fayetteville,fayetteville,North Carolina
+gbo,61,greensboro,greensboro,North Carolina
+hky,462,hickory,hickory / lenoir,North Carolina
+oaj,634,onslow,jacksonville,North Carolina
+obx,336,outerbanks,outer banks,North Carolina
+ral,36,raleigh,raleigh / durham / CH,North Carolina
+wnc,274,wilmington,wilmington,North Carolina
+wsl,272,winstonsalem,winston-salem,North Carolina
+bis,666,bismarck,bismarck,North Dakota
+far,435,fargo,fargo / moorhead,North Dakota
+gfk,667,grandforks,grand forks,North Dakota
+ndk,196,nd,north dakota,North Dakota
+cak,251,akroncanton,akron / canton,Ohio
+jfn,700,ashtabula,ashtabula,Ohio
+ohu,438,athensohio,athens,Ohio
+chl,701,chillicothe,chillicothe,Ohio
+cin,35,cincinnati,cincinnati,Ohio
+cle,27,cleveland,cleveland,Ohio
+col,42,columbus,columbus,Ohio
+day,131,dayton,dayton / springfield,Ohio
+lma,437,limaohio,lima / findlay,Ohio
+mfd,436,mansfield,mansfield,Ohio
+sky,573,sandusky,sandusky,Ohio
+tol,204,toledo,toledo,Ohio
+nph,703,tuscarawas,tuscarawas co,Ohio
+yng,252,youngstown,youngstown,Ohio
+zyl,702,zanesville,zanesville / cambridge,Ohio
+law,422,lawton,lawton,Oklahoma
+end,650,enid,northwest OK,Oklahoma
+okc,54,oklahomacity,oklahoma city,Oklahoma
+osu,433,stillwater,stillwater,Oklahoma
+tul,70,tulsa,tulsa,Oklahoma
+bnd,233,bend,bend,Oregon
+crv,350,corvallis,corvallis/albany,Oregon
+eor,322,eastoregon,east oregon,Oregon
+eug,94,eugene,eugene,Oregon
+klf,675,klamath,klamath falls,Oregon
+mfr,216,medford,medford-ashland,Oregon
+cor,321,oregoncoast,oregon coast,Oregon
+pdx,9,portland,portland,Oregon
+rbg,459,roseburg,roseburg,Oregon
+sle,232,salem,salem,Oregon
+aoo,355,altoona,altoona-johnstown,Pennsylvania
+cbg,705,chambersburg,cumberland valley,Pennsylvania
+eri,275,erie,erie,Pennsylvania
+hrs,166,harrisburg,harrisburg,Pennsylvania
+lns,279,lancaster,lancaster,Pennsylvania
+alt,167,allentown,lehigh valley,Pennsylvania
+mdv,706,meadville,meadville,Pennsylvania
+phi,17,philadelphia,philadelphia,Pennsylvania
+pit,33,pittsburgh,pittsburgh,Pennsylvania
+poc,356,poconos,poconos,Pennsylvania
+rea,278,reading,reading,Pennsylvania
+avp,276,scranton,scranton / wilkes-barre,Pennsylvania
+psu,277,pennstate,state college,Pennsylvania
+wpt,463,williamsport,williamsport,Pennsylvania
+yrk,357,york,york,Pennsylvania
+prv,38,providence,rhode island,Rhode Island
+chs,128,charleston,charleston,South Carolina
+cae,101,columbia,columbia,South Carolina
+flo,464,florencesc,florence,South Carolina
+gsp,253,greenville,greenville / upstate,South Carolina
+hhi,353,hiltonhead,hilton head,South Carolina
+myr,254,myrtlebeach,myrtle beach,South Carolina
+abr,682,nesd,northeast SD,South Dakota
+csd,681,csd,pierre / central SD,South Dakota
+rap,680,rapidcity,rapid city / west SD,South Dakota
+fsd,679,siouxfalls,sioux falls / SE SD,South Dakota
+sdk,195,sd,south dakota,South Dakota
+cht,220,chattanooga,chattanooga,Tennessee
+ckv,465,clarksville,clarksville,Tennessee
+coo,670,cookeville,cookeville,Tennessee
+jxt,558,jacksontn,jackson ,Tennessee
+knx,202,knoxville,knoxville,Tennessee
+mem,46,memphis,memphis,Tennessee
+nsh,32,nashville,nashville,Tennessee
+tri,323,tricities,tri-cities,Tennessee
+gum,245,micronesia,guam-micronesia,Territories    
+pri,180,puertorico,puerto rico,Territories    
+vrg,616,virgin,U.S. virgin islands,Territories    
+abi,364,abilene,abilene,Texas
+ama,269,amarillo,amarillo,Texas
+aus,15,austin,austin,Texas
+bpt,264,beaumont,beaumont / port arthur,Texas
+bro,266,brownsville,brownsville,Texas
+cst,326,collegestation,college station,Texas
+crp,265,corpuschristi,corpus christi,Texas
+dal,21,dallas,dallas / fort worth,Texas
+och,645,nacogdoches,deep east texas,Texas
+drt,647,delrio,del rio / eagle pass,Texas
+elp,132,elpaso,el paso,Texas
+gls,470,galveston,galveston,Texas
+hou,23,houston,houston,Texas
+grk,327,killeen,killeen / temple / ft hood,Texas
+lrd,271,laredo,laredo,Texas
+lbb,267,lubbock,lubbock,Texas
+mca,263,mcallen,mcallen / edinburg,Texas
+odm,268,odessa,odessa / midland,Texas
+sjt,646,sanangelo,san angelo,Texas
+sat,53,sanantonio,san antonio,Texas
+tsu,449,sanmarcos,san marcos,Texas
+wtx,648,bigbend,southwest TX,Texas
+txm,649,texoma,texoma,Texas
+etx,308,easttexas,tyler / east TX,Texas
+vtx,564,victoriatx,victoria,Texas
+wco,270,waco,waco,Texas
+wtf,365,wichitafalls,wichita falls,Texas
+lgu,448,logan,logan,Utah
+ogd,351,ogden,ogden-clearfield,Utah
+pvu,292,provo,provo / orem,Utah
+slc,56,saltlakecity,salt lake city,Utah
+stg,352,stgeorge,st george,Utah
+uva,290,charlottesville,charlottesville,Virginia
+dnv,367,danville,danville,Virginia
+ezf,457,fredericksburg,fredericksburg,Virginia
+nfk,48,norfolk,hampton roads,Virginia
+shd,447,harrisonburg,harrisonburg,Virginia
+lyn,366,lynchburg,lynchburg,Virginia
+vpi,291,blacksburg,new river valley,Virginia
+ric,60,richmond,richmond,Virginia
+roa,289,roanoke,roanoke,Virginia
+vaw,712,swva,southwest VA,Virginia
+okv,711,winchester,winchester,Virginia
+bli,217,bellingham,bellingham,Washington
+kpr,324,kpr,kennewick-pasco-richland,Washington
+mlk,655,moseslake,moses lake,Washington
+olp,466,olympic,olympic peninsula,Washington
+plm,368,pullman,pullman / moscow,Washington
+sea,2,seattle,seattle-tacoma,Washington
+mvw,461,skagit,skagit / island / SJI,Washington
+spk,95,spokane,spokane / coeur d'alene,Washington
+wen,325,wenatchee,wenatchee,Washington
+yak,246,yakima,yakima,Washington
+crw,439,charlestonwv,charleston,West Virginia
+ewv,444,martinsburg,eastern panhandle,West Virginia
+hts,442,huntington,huntington-ashland,West Virginia
+wvu,440,morgantown,morgantown,West Virginia
+whl,443,wheeling,northern panhandle,West Virginia
+pkb,441,parkersburg,parkersburg-marietta,West Virginia
+swv,632,swv,southern WV,West Virginia
+wva,194,wv,west virginia (old),West Virginia
+app,243,appleton,appleton-oshkosh-FDL,Wisconsin
+eau,242,eauclaire,eau claire,Wisconsin
+grb,241,greenbay,green bay,Wisconsin
+jvl,553,janesville,janesville,Wisconsin
+rac,552,racine,kenosha-racine,Wisconsin
+lse,363,lacrosse,la crosse,Wisconsin
+mad,165,madison,madison,Wisconsin
+mil,47,milwaukee,milwaukee,Wisconsin
+nwi,631,northernwi,northern WI,Wisconsin
+sbm,571,sheboygan,sheboygan,Wisconsin
+wau,458,wausau,wausau,Wisconsin
+wyo,197,wyoming,wyoming,Wyoming

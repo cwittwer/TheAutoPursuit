@@ -1,0 +1,150 @@
+2020-08-26 14:53:31,858 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2020-08-26 14:53:31,858 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from /usr/local/lib/python3.7/dist-packages/instabot/bot/bot.py
+2020-08-26 14:53:31,860 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2020-08-26 14:53:31,860 - instabot version: 0.117.0 (api_login) - INFO - Recovery from /home/pi/Desktop/CarBot/PyCode/config/Classic_Bimmer_Bot_uuid_and_cookie.json: COOKIE False - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=316c7c53-e9b6-4299-b83c-3c083dd1dad5
+- uuid=aed50678-b9c2-4beb-a663-86f0f641bd2c
+- client_session_id=b4e9715d-b8f5-4004-b9d0-71bf95890b7a
+- device_id=android-16a098091faa435c
+2020-08-26 14:53:31,860 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2020-08-26 14:53:32,009 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2020-08-26 14:53:32,151 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2020-08-26 14:53:32,288 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2020-08-26 14:53:32,428 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2020-08-26 14:53:34,158 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [200]>
+2020-08-26 14:53:34,174 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'Classic_Bimmer_Bot'!
+2020-08-26 14:53:34,175 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: True
+2020-08-26 14:53:34,360 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [400]>
+2020-08-26 14:53:34,360 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "challenge_required", "challenge": {"url": "https://i.instagram.com/challenge/?next=/api/v1/qe/sync/", "api_path": "/challenge/", "hide_webview_header": true, "lock": true, "logout": false, "native_flow": true}, "status": "fail"}'
+2020-08-26 14:53:34,360 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2020-08-26 14:53:34,361 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2020-08-26 14:53:34,361 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2020-08-26 14:53:34,550 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [400]>
+2020-08-26 14:53:34,550 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "challenge_required", "challenge": {"url": "https://i.instagram.com/challenge/?next=/api/v1/launcher/sync/", "api_path": "/challenge/", "hide_webview_header": true, "lock": true, "logout": false, "native_flow": true}, "status": "fail"}'
+2020-08-26 14:53:34,551 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2020-08-26 14:53:34,551 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2020-08-26 14:53:34,551 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2020-08-26 14:53:34,705 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: zr/token/result/?device_id=android-16a098091faa435c&token_hash=&custom_device_id=android-16a098091faa435c&fetch_reason=token_expired returned response: <Response [400]>
+2020-08-26 14:53:34,706 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "challenge_required", "challenge": {"url": "https://i.instagram.com/challenge/?next=/api/v1/zr/token/result/%253Fdevice_id%253Dandroid-16a098091faa435c%2526token_hash%253D%2526custom_device_id%253Dandroid-16a098091faa435c%2526fetch_reason%253Dtoken_expired", "api_path": "/challenge/", "hide_webview_header": true, "lock": true, "logout": false, "native_flow": true}, "status": "fail"}'
+2020-08-26 14:53:34,706 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2020-08-26 14:53:34,706 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2020-08-26 14:53:34,706 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2020-08-26 14:53:34,857 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: multiple_accounts/get_account_family/ returned response: <Response [400]>
+2020-08-26 14:53:34,857 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "challenge_required", "challenge": {"url": "https://i.instagram.com/challenge/?next=/api/v1/multiple_accounts/get_account_family/", "api_path": "/challenge/", "hide_webview_header": true, "lock": true, "logout": false, "native_flow": true}, "status": "fail"}'
+2020-08-26 14:53:34,858 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2020-08-26 14:53:34,858 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2020-08-26 14:53:34,858 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2020-08-26 14:53:35,013 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [400]>
+2020-08-26 14:53:35,013 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "challenge_required", "challenge": {"url": "https://i.instagram.com/challenge/?next=/api/v1/qe/sync/", "api_path": "/challenge/", "hide_webview_header": true, "lock": true, "logout": false, "native_flow": true}, "status": "fail"}'
+2020-08-26 14:53:35,013 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2020-08-26 14:53:35,014 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2020-08-26 14:53:35,014 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2020-08-26 14:53:35,170 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: igtv/browse_feed/?prefetch=1 returned response: <Response [400]>
+2020-08-26 14:53:35,171 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "challenge_required", "challenge": {"url": "https://i.instagram.com/challenge/?next=/api/v1/igtv/browse_feed/%253Fprefetch%253D1", "api_path": "/challenge/", "hide_webview_header": true, "lock": true, "logout": false, "native_flow": true}, "status": "fail"}'
+2020-08-26 14:53:35,171 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2020-08-26 14:53:35,171 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2020-08-26 14:53:35,172 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2020-08-26 14:53:35,350 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: creatives/ar_class/ returned response: <Response [400]>
+2020-08-26 14:53:35,350 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "challenge_required", "challenge": {"url": "https://i.instagram.com/challenge/?next=/api/v1/creatives/ar_class/", "api_path": "/challenge/", "hide_webview_header": true, "lock": true, "logout": false, "native_flow": true}, "status": "fail"}'
+2020-08-26 14:53:35,351 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2020-08-26 14:53:35,351 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2020-08-26 14:53:35,351 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2020-08-26 14:53:35,528 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [400]>
+2020-08-26 14:53:35,528 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "challenge_required", "challenge": {"url": "https://i.instagram.com/challenge/?next=/api/v1/feed/reels_tray/", "api_path": "/challenge/", "hide_webview_header": true, "lock": true, "logout": false, "native_flow": true}, "status": "fail"}'
+2020-08-26 14:53:35,529 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2020-08-26 14:53:35,529 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2020-08-26 14:53:35,530 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2020-08-26 14:53:35,785 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [400]>
+2020-08-26 14:53:35,785 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "challenge_required", "challenge": {"url": "https://i.instagram.com/challenge/?next=/api/v1/feed/timeline/", "api_path": "/challenge/", "hide_webview_header": true, "lock": true, "logout": false, "native_flow": true}, "status": "fail"}'
+2020-08-26 14:53:35,785 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2020-08-26 14:53:35,785 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2020-08-26 14:53:35,786 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2020-08-26 14:53:35,934 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/blocked/ returned response: <Response [400]>
+2020-08-26 14:53:35,935 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "challenge_required", "challenge": {"url": "https://i.instagram.com/challenge/?next=/api/v1/media/blocked/", "api_path": "/challenge/", "hide_webview_header": true, "lock": true, "logout": false, "native_flow": true}, "status": "fail"}'
+2020-08-26 14:53:35,935 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2020-08-26 14:53:35,935 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2020-08-26 14:53:35,936 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2020-08-26 14:53:36,084 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: news/inbox/ returned response: <Response [400]>
+2020-08-26 14:53:36,084 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "challenge_required", "challenge": {"url": "https://i.instagram.com/challenge/?next=/api/v1/news/inbox/", "api_path": "/challenge/", "hide_webview_header": true, "lock": true, "logout": false, "native_flow": true}, "status": "fail"}'
+2020-08-26 14:53:36,084 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2020-08-26 14:53:36,085 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2020-08-26 14:53:36,085 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2020-08-26 14:53:36,241 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: loom/fetch_config/ returned response: <Response [400]>
+2020-08-26 14:53:36,242 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "challenge_required", "challenge": {"url": "https://i.instagram.com/challenge/?next=/api/v1/loom/fetch_config/", "api_path": "/challenge/", "hide_webview_header": true, "lock": true, "logout": false, "native_flow": true}, "status": "fail"}'
+2020-08-26 14:53:36,242 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2020-08-26 14:53:36,242 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2020-08-26 14:53:36,242 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2020-08-26 14:53:36,416 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: scores/bootstrap/users/?surfaces=["autocomplete_user_list","coefficient_besties_list_ranking","coefficient_rank_recipient_user_suggestion","coefficient_ios_section_test_bootstrap_ranking","coefficient_direct_recipients_ranking_variant_2"] returned response: <Response [400]>
+2020-08-26 14:53:36,416 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "challenge_required", "challenge": {"url": "https://i.instagram.com/challenge/?next=/api/v1/scores/bootstrap/users/%253Fsurfaces%253D%25255B%252522autocomplete_user_list%252522%252C%252522coefficient_besties_list_ranking%252522%252C%252522coefficient_rank_recipient_user_suggestion%252522%252C%252522coefficient_ios_section_test_bootstrap_ranking%252522%252C%252522coefficient_direct_recipients_ranking_variant_2%252522%25255D", "api_path": "/challenge/", "hide_webview_header": true, "lock": true, "logout": false, "native_flow": true}, "status": "fail"}'
+2020-08-26 14:53:36,417 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2020-08-26 14:53:36,418 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2020-08-26 14:53:36,418 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2020-08-26 14:53:36,609 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: business/eligibility/get_monetization_products_eligibility_data/?product_types=branded_content returned response: <Response [400]>
+2020-08-26 14:53:36,609 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "challenge_required", "challenge": {"url": "https://i.instagram.com/challenge/?next=/api/v1/business/eligibility/get_monetization_products_eligibility_data/%253Fproduct_types%253Dbranded_content", "api_path": "/challenge/", "hide_webview_header": true, "lock": true, "logout": false, "native_flow": true}, "status": "fail"}'
+2020-08-26 14:53:36,609 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2020-08-26 14:53:36,610 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2020-08-26 14:53:36,610 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2020-08-26 14:53:36,797 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: business/branded_content/should_require_professional_account/ returned response: <Response [400]>
+2020-08-26 14:53:36,797 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "challenge_required", "challenge": {"url": "https://i.instagram.com/challenge/?next=/api/v1/business/branded_content/should_require_professional_account/", "api_path": "/challenge/", "hide_webview_header": true, "lock": true, "logout": false, "native_flow": true}, "status": "fail"}'
+2020-08-26 14:53:36,798 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2020-08-26 14:53:36,798 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2020-08-26 14:53:36,798 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2020-08-26 14:53:36,963 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: linked_accounts/get_linkage_status/ returned response: <Response [400]>
+2020-08-26 14:53:36,963 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "challenge_required", "challenge": {"url": "https://i.instagram.com/challenge/?next=/api/v1/linked_accounts/get_linkage_status/", "api_path": "/challenge/", "hide_webview_header": true, "lock": true, "logout": false, "native_flow": true}, "status": "fail"}'
+2020-08-26 14:53:36,963 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2020-08-26 14:53:36,964 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2020-08-26 14:53:36,964 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2020-08-26 14:53:37,117 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: locations/request_country/ returned response: <Response [400]>
+2020-08-26 14:53:37,117 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "challenge_required", "challenge": {"url": "https://i.instagram.com/challenge/?next=/api/v1/locations/request_country/", "api_path": "/challenge/", "hide_webview_header": true, "lock": true, "logout": false, "native_flow": true}, "status": "fail"}'
+2020-08-26 14:53:37,118 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2020-08-26 14:53:37,118 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2020-08-26 14:53:37,118 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2020-08-26 14:53:37,277 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: qp/get_cooldowns/?signed_body=signed_body=4b9c516a5410a3bc128e09c6104a7f042146b9c2023870560c63a43a7f66781c.4&ig_sig_key_version=4&ig_sig_key_version=4 returned response: <Response [400]>
+2020-08-26 14:53:37,278 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "challenge_required", "challenge": {"url": "https://i.instagram.com/challenge/?next=/api/v1/qp/get_cooldowns/%253Fsigned_body%253Dsigned_body%253D4b9c516a5410a3bc128e09c6104a7f042146b9c2023870560c63a43a7f66781c.4%2526ig_sig_key_version%253D4%2526ig_sig_key_version%253D4", "api_path": "/challenge/", "hide_webview_header": true, "lock": true, "logout": false, "native_flow": true}, "status": "fail"}'
+2020-08-26 14:53:37,278 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2020-08-26 14:53:37,279 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2020-08-26 14:53:37,279 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2020-08-26 14:53:37,502 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/arlink_download_info/?version_override=2.2.1 returned response: <Response [400]>
+2020-08-26 14:53:37,503 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "challenge_required", "challenge": {"url": "https://i.instagram.com/challenge/?next=/api/v1/users/arlink_download_info/%253Fversion_override%253D2.2.1", "api_path": "/challenge/", "hide_webview_header": true, "lock": true, "logout": false, "native_flow": true}, "status": "fail"}'
+2020-08-26 14:53:37,503 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2020-08-26 14:53:37,504 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2020-08-26 14:53:37,505 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2020-08-26 14:53:37,701 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/40430669694/info/ returned response: <Response [400]>
+2020-08-26 14:53:37,702 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "challenge_required", "challenge": {"url": "https://i.instagram.com/challenge/?next=/api/v1/users/40430669694/info/", "api_path": "/challenge/", "hide_webview_header": true, "lock": true, "logout": false, "native_flow": true}, "status": "fail"}'
+2020-08-26 14:53:37,702 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2020-08-26 14:53:37,702 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2020-08-26 14:53:37,702 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2020-08-26 14:53:37,857 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/get_presence/ returned response: <Response [400]>
+2020-08-26 14:53:37,857 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "challenge_required", "challenge": {"url": "https://i.instagram.com/challenge/?next=/api/v1/direct_v2/get_presence/", "api_path": "/challenge/", "hide_webview_header": true, "lock": true, "logout": false, "native_flow": true}, "status": "fail"}'
+2020-08-26 14:53:37,857 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2020-08-26 14:53:37,858 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2020-08-26 14:53:37,858 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2020-08-26 14:53:38,014 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/inbox/?visual_message_return_type=unseen&thread_message_limit=10&persistentBadging=true&limit=20 returned response: <Response [400]>
+2020-08-26 14:53:38,014 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "challenge_required", "challenge": {"url": "https://i.instagram.com/challenge/?next=/api/v1/direct_v2/inbox/%253Fvisual_message_return_type%253Dunseen%2526thread_message_limit%253D10%2526persistentBadging%253Dtrue%2526limit%253D20", "api_path": "/challenge/", "hide_webview_header": true, "lock": true, "logout": false, "native_flow": true}, "status": "fail"}'
+2020-08-26 14:53:38,014 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2020-08-26 14:53:38,015 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2020-08-26 14:53:38,015 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2020-08-26 14:53:38,175 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/inbox/?visual_message_return_type=unseen&persistentBadging=true&limit=0 returned response: <Response [400]>
+2020-08-26 14:53:38,175 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "challenge_required", "challenge": {"url": "https://i.instagram.com/challenge/?next=/api/v1/direct_v2/inbox/%253Fvisual_message_return_type%253Dunseen%2526persistentBadging%253Dtrue%2526limit%253D0", "api_path": "/challenge/", "hide_webview_header": true, "lock": true, "logout": false, "native_flow": true}, "status": "fail"}'
+2020-08-26 14:53:38,175 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2020-08-26 14:53:38,176 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2020-08-26 14:53:38,176 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2020-08-26 14:53:38,344 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: discover/topical_explore/?is_prefetch=true&omit_cover_media=true&use_sectional_payload=true&timezone_offset=0&session_id=b4e9715d-b8f5-4004-b9d0-71bf95890b7a&include_fixed_destinations=true returned response: <Response [400]>
+2020-08-26 14:53:38,344 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "challenge_required", "challenge": {"url": "https://i.instagram.com/challenge/?next=/api/v1/discover/topical_explore/%253Fis_prefetch%253Dtrue%2526omit_cover_media%253Dtrue%2526use_sectional_payload%253Dtrue%2526timezone_offset%253D0%2526session_id%253Db4e9715d-b8f5-4004-b9d0-71bf95890b7a%2526include_fixed_destinations%253Dtrue", "api_path": "/challenge/", "hide_webview_header": true, "lock": true, "logout": false, "native_flow": true}, "status": "fail"}'
+2020-08-26 14:53:38,344 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2020-08-26 14:53:38,344 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2020-08-26 14:53:38,345 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2020-08-26 14:53:38,549 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: notifications/badge/ returned response: <Response [400]>
+2020-08-26 14:53:38,549 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "challenge_required", "challenge": {"url": "https://i.instagram.com/challenge/?next=/api/v1/notifications/badge/", "api_path": "/challenge/", "hide_webview_header": true, "lock": true, "logout": false, "native_flow": true}, "status": "fail"}'
+2020-08-26 14:53:38,549 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2020-08-26 14:53:38,550 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2020-08-26 14:53:38,550 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2020-08-26 14:53:38,716 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qp/batch_fetch/ returned response: <Response [400]>
+2020-08-26 14:53:38,717 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "challenge_required", "challenge": {"url": "https://i.instagram.com/challenge/?next=/api/v1/qp/batch_fetch/", "api_path": "/challenge/", "hide_webview_header": true, "lock": true, "logout": false, "native_flow": true}, "status": "fail"}'
+2020-08-26 14:53:38,717 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2020-08-26 14:53:38,717 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2020-08-26 14:53:38,717 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2020-08-26 14:53:38,718 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: /home/pi/Desktop/CarBot/PyCode/config/Classic_Bimmer_Bot.checkpoint
+2020-08-26 14:53:44,805 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /home/pi/Desktop/CarBot/PyCode/config/Classic_Bimmer_Bot.checkpoint
+2020-08-26 14:53:44,806 - instabot version: 0.117.0 (bot) - INFO - Total requests: 112
