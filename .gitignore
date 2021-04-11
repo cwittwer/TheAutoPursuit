@@ -1,0 +1,4 @@
+Pycode/logs/
+env/
+.vscode/
+PyCode/*tokens.py 
