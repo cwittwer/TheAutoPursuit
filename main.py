@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 
 @app.route('/')
-def root():
+def index():
     # For the sake of example, use static information to inflate the template.
     # This will be replaced with real information in later steps.
     dummy_times = [datetime.datetime(2018, 1, 1, 10, 0, 0),
@@ -16,6 +16,13 @@ def root():
 
     return render_template('index.html', times=dummy_times)
 
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
+@app.route('/infinite_scroll')
+def infinite_scroll():
+    return render_template('infinite_scroll.html')
 
 if __name__ == '__main__':
     # This is used when running locally only. When deploying to Google App
