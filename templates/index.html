@@ -9,10 +9,12 @@
     {% extends "template.html" %}
     {% block content %} 
 
-    <h1>Classic Bimmer Post</h1>
-    <h2>Vehicles for sale found by a bot looking for classic BMWs</h2>
+    <h2>Last 10 visits</h2>
+    {% for time in times %}
+      <p>{{ time['timestamp'] }}</p>
+    {% endfor %}
 
-
+    <!--
     <div class="twitterborder">
       <div class="table">
         <div class="table-cell">
@@ -38,8 +40,10 @@
         </div>
       </div>
     </div>
-    
+    -->
+
     {% endblock %}
   </body>
 </html>
+
 

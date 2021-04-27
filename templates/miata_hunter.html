@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Auto Pursuit: Miata Hunter</title>
+    <meta name="description" content="Miatas for sale">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</head>
+<body>
+    {% extends "template.html" %}
+    {% block content %}
+
+	<h1>Miata Hunter</h1>
+    <h2>Vehicles for sale found by a bot looking for Miatas</h2>
+	<hr>
+	<hr>
+
+	<h2>Last 20 cars</h2>
+    {% for car in cars %}
+		<img src={{ car['image'] }} alt={{ car['title'] }} class="center">
+    	<p><a href={{ car['link'] }}>{{ car['title'] }}</a></p><br>
+		<p>Price: {{ car['price'] }} | Link: {{car['link']}}</p>
+		<hr>
+    {% endfor %}
+
+    {% endblock %}
+</body>
+
+</html>
