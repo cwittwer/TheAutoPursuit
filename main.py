@@ -86,13 +86,6 @@ def barely_driven():
 
     return render_template('barely_driven.html', cars=cars)
 
-@app.route('/newclassicbimmers')
-def new_classic_bimmers():
-
-    cars = fetch_listings(20, 'BMW')
-
-    return render_template('Classic_Bimmers_Clean.html', cars=cars)
-
 if __name__ == '__main__':
     # This is used when running locally only. When deploying to Google App
     # Engine, a webserver process such as Gunicorn will serve the app. This
