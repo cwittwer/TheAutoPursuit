@@ -1,32 +1,45 @@
 <!doctype html>
-<html lang="en" class="no-js">
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Auto Pursuit: Miata Hunter</title>
-    <meta name="description" content="Miatas for sale">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="{{ url_for('static', filename='script.js') }}"></script>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Miata Hunter</title>
+<link href="static/CSS/Car_Page_Stylesheet.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="{{ url_for('static', filename='script.js') }}"></script>
 </head>
-<body>
-    {% extends "template.html" %}
+    {% extends "template.html" %} 
     {% block content %}
+    <!-- Main Container -->
+    <div class="container"> 
+        <!-- Header -->
+        <section class="intro">
+            <div class="column"><h4 class="logo">Miata Hunter</h4></div>
+        </section>
+        <!-- Stats Gallery Section -->
+        <div class="gallery">
+            {% for key,cars_dict_item in cars.items() %}
+            <div class="thumbnail"> <a href="#"><img src={{ cars_dict_item['image'] }} alt="" width="2000" class="cards"/></a>
+                <h4>{{ cars_dict_item['title'] }}</h4>
+                <p class="tag"><a href={{ cars_dict_item['link'] }}>Link To Ad</a></p>
+                <p class="text_column">Price: {{ cars_dict_item['price'] }}<br>
+                Location: {{ cars_dict_item['where'] }}<br>
+                Post Date: {{ cars_dict_item['post_date'] }}
+                </p>
+            </div>
+            {% endfor %}
+        </div>
 
-	<h1>Miata Hunter</h1>
-    <h2>Vehicles for sale found by a bot looking for Miatas</h2>
-	<hr>
-	<hr>
-
-	<h2>Last 20 cars</h2>
-    {% for car in cars %}
-		<img src={{ car['image'] }} alt={{ car['title'] }} class="center">
-    	<p><a href={{ car['link'] }}>{{ car['title'] }}</a></p><br>
-		<p>Price: {{ car['price'] }} | Link: {{car['link']}}</p>
-		<hr>
-    {% endfor %}
-
+        <!-- Footer Section -->
+        <footer id="contact">
+            <p class="hero_header">GET IN TOUCH WITH ME</p>
+            <div class="button">EMAIL ME </div>
+        </footer>
+        <!-- Copyrights Section -->
+        <div class="copyright">&copy;2020 - <strong>The Auto Pursuit</strong></div>
+    </div>
+    <!-- Main Container Ends -->
     {% endblock %}
 </body>
-
 </html>

@@ -28,8 +28,13 @@ def fetch_listings(lim, query_name):
     query.order = ['-timestamp']
 
     listings = query.fetch(limit=lim)
+    listofcars = {}
+    i=1
+    for list in listings:
+        listofcars.update({str(i):list})
+        i=i+1
 
-    return listings
+    return listofcars
 
 @app.route('/')
 def index():
@@ -80,6 +85,13 @@ def barely_driven():
     cars = fetch_listings(20, 'barely')
 
     return render_template('barely_driven.html', cars=cars)
+
+@app.route('/newclassicbimmers')
+def new_classic_bimmers():
+
+    cars = fetch_listings(20, 'BMW')
+
+    return render_template('Classic_Bimmers_Clean.html', cars=cars)
 
 if __name__ == '__main__':
     # This is used when running locally only. When deploying to Google App
