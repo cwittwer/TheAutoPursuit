@@ -194,6 +194,30 @@ footer {
 	color: #470E0B;
 	text-decoration: underline;
 }
+/* Pagination links */
+.pagination a {
+	color: white;
+	background-color:#00293D;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 12px 20px;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	transition: background-color .3s;
+}
+
+  /* Style the active/current link */
+.pagination a.active2 {
+	background-color: #005F8F;
+	color: white;
+}
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active2) {
+	background-color: #ddd;
+}
 
 /* Mobile */
 @media (max-width: 320px) {

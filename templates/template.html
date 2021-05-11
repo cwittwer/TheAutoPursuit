@@ -34,5 +34,30 @@
         {% block content %}
         {% endblock %}
 
+        <!-- Pagination Links-->
+        <div class="pagination">
+            <a href="{{ url_for(pagename, page=1) }}">&laquo;</a>
+            {% for number in pagenum %}
+                {% if number != '0' and number != '-1' %}
+                    {% if loop.index == 3 %}
+                        <a class="active2" href="{{ url_for(pagename, page=number) }}">{{ number }}</a>
+                    {% elif loop.index == 5 %}
+                        <a href="{{ url_for(pagename, page=number) }}">{{ number }}</a>
+                        <a href="{{ url_for(pagename, page=number) }}">&raquo;</a>
+                    {% else %}
+                        <a href="{{ url_for(pagename, page=number) }}">{{ number }}</a>
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+        </div>
+
+        <!-- Footer Section -->
+        <footer id="contact">
+            <p class="hero_header">GET IN TOUCH WITH ME</p>
+            <div class="button">EMAIL ME </div>
+        </footer>
+        <!-- Copyrights Section -->
+        <div class="copyright">&copy;2020 - <strong>The Auto Pursuit</strong></div>
+
     </body>
 </html>

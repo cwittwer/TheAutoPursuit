@@ -60,9 +60,10 @@ def classic_bimmers():
 
     page = request.args.get('page',1,type=int)
     offset= (page-1)*20
-    cars = fetch_listings(20, 'BMW', offset) 
+    cars = fetch_listings(20, 'BMW', offset)
+    pages=[str(page-2),str(page-1),str(page),str(page+1),str(page+2)]
 
-    return render_template('classic_bimmers.html', cars=cars)
+    return render_template('classic_bimmers.html', cars=cars, pagename='classic_bimmers', pagenum=pages)
 
 @app.route('/m-cars')
 def mcars():
@@ -70,8 +71,9 @@ def mcars():
     page = request.args.get('page',1,type=int)
     offset= (page-1)*20
     cars = fetch_listings(20, 'mcar', offset)
+    pages=[str(page-2),str(page-1),str(page),str(page+1),str(page+2)]
 
-    return render_template('mcars.html', cars=cars)
+    return render_template('mcars.html', cars=cars, pagename='mcars', pagenum=pages)
 
 @app.route('/miata-hunter')
 def miata_hunter():
@@ -79,8 +81,9 @@ def miata_hunter():
     page = request.args.get('page',1,type=int)
     offset= (page-1)*20
     cars = fetch_listings(20, 'miata', offset)
+    pages=[str(page-2),str(page-1),str(page),str(page+1),str(page+2)]
 
-    return render_template('miata_hunter.html', cars=cars)
+    return render_template('miata_hunter.html', cars=cars, pagename='miata_hunter', pagenum=pages)
 
 @app.route('/swedish-steel')
 def swedish_steel():
@@ -90,10 +93,10 @@ def swedish_steel():
 
     cars = fetch_listings(10, 'volvo', offset)
     cars2 = fetch_listings(10, 'Saab', offset, secondary=1)
-
     cars_ = {**cars, **cars2}
+    pages=[str(page-2),str(page-1),str(page),str(page+1),str(page+2)]
 
-    return render_template('swedish_steel.html', cars=cars_)
+    return render_template('swedish_steel.html', cars=cars_, pagename='swedish_steel', pagenum=pages)
     
 @app.route('/barely-driven')
 def barely_driven():
@@ -101,8 +104,9 @@ def barely_driven():
     page = request.args.get('page',1,type=int)
     offset= (page-1)*20
     cars = fetch_listings(20, 'barely', offset)
+    pages=[str(page-2),str(page-1),str(page),str(page+1),str(page+2)]
 
-    return render_template('barely_driven.html', cars=cars)
+    return render_template('barely_driven.html', cars=cars, pagename='barely_driven', pagenum=pages)
 
 if __name__ == '__main__':
     # This is used when running locally only. When deploying to Google App
