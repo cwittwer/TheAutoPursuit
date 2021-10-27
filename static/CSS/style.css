@@ -13,7 +13,7 @@ abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
 hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
 input,select{vertical-align:middle}
 body {
-  background-color: #F6F6F6;
+	background-color: #F6F6F6;
 }
 body, h1, p {
 	font-family: "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -28,9 +28,9 @@ img {
 	text-align: center;
 }
 #gallery img {
-	margin: 10px 0 30px 0;
-  width: 780px ;
-  height: 512px;
+	margin: 10px 0 30px 0;	
+	width: 780px ;
+	height: 512px;
 }
 #gallery div {
 	background-color: #bbc;
@@ -70,7 +70,7 @@ h2 {
 	font-size: 24px;
 	font-weight: 200;
 	margin: auto;
-  margin-bottom: 45px;
+	margin-bottom: 45px;
 	text-align: center;
 }
 .lead {
@@ -80,13 +80,13 @@ h2 {
 }
 p {
 	margin: auto;
-  text-align: center;
+	text-align: center;
 }
 a {
 	color: #3282e6;
 	text-decoration: none;
-  margin-left: auto;
-  margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 .imageCaption {
 	float: right;
@@ -98,7 +98,7 @@ hr {
     margin: 25px 0;
 }
 .navigation{
-	color:#FFFFFF
+	color:#FFFFFF;
 	list-style-type:none;
 	text-decoration:none;
 	width: 100vw;
@@ -146,27 +146,27 @@ hr {
 	text-align: center;
 }
 .twitterborder {
-  width:500px;
-  height:300px;
-  margin: auto;
-  background:#707070;
-  text-align: center;
+	width:500px;
+	height:300px;
+	margin: auto;
+	background:#707070;
+	text-align: center;
 }
 .table{
-  display:table;
-  height: 100%;
-  width: 100%;
+	display:table;
+	height: 100%;
+	width: 100%;
 }
 .table-cell{
-  display:table-cell;
-  vertical-align: middle;
+	display:table-cell;
+	vertical-align: middle;
 }
 
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
 }
 
 @media screen and (max-width: 600px) {
